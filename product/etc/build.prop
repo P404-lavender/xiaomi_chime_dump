@@ -1,0 +1,73 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Xiaomi
+ro.product.product.device=chime
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=SM6115
+ro.product.product.name=lineage_chime
+ro.product.build.date=Thu Oct  6 04:27:54 UTC 2022
+ro.product.build.date.utc=1665030474
+ro.product.build.fingerprint=Xiaomi/lineage_chime/chime:13/TP1A.220905.004.A2/a10060957:userdebug/test-keys
+ro.product.build.id=TP1A.220905.004.A2
+ro.product.build.tags=test-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.a.20221006.095930
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from device/xiaomi/chime/configs/properties/product.prop
+####################################
+# App Compaction configuration
+persist.sys.appcompact.enable_app_compact=false
+persist.sys.appcompact.full_compact_type=2
+persist.sys.appcompact.some_compact_type=4
+persist.sys.appcompact.compact_throttle_somesome=5000
+persist.sys.appcompact.compact_throttle_somefull=10000
+persist.sys.appcompact.compact_throttle_fullsome=500
+persist.sys.appcompact.compact_throttle_fullfull=10000
+persist.sys.appcompact.compact_throttle_bfgs=600000
+persist.sys.appcompact.compact_throttle_persistent=600000
+persist.sys.appcompact.rss_throttle_kb=12000
+persist.sys.appcompact.delta_rss_throttle_kb=8000
+persist.sys.perf.topAppRenderThreadBoost.enable=false
+# Audio
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.offload.min.duration.secs=30
+audio.sys.offload.pstimeout.secs=3
+# IORap
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+# LMKD
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+# Memory management
+persist.sys.fw.bg_apps_limit=48
+persist.sys.fw.use_trim_settings=true
+persist.sys.fw.empty_app_percent=50
+persist.sys.fw.trim_empty_percent=100
+persist.sys.fw.trim_cache_percent=100
+persist.sys.fw.trim_enable_memory=2147483648
+persist.sys.fw.bservice_age=120000
+persist.sys.fw.bservice_limit=6
+persist.sys.fw.bservice_enable=true
+# Service reschedule
+persist.sys.am.reschedule_service=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+# end of file
